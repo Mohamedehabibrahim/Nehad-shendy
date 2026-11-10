@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>نهاد كمال | أخصائية تربية خاصة وتعديل سلوك في الرياض</title>
-<meta name="description" content="أخصائية تربية خاصة وتعديل سلوك في الرياض بخبرة أكثر من 10 سنوات مع أطفال التوحد وفرط الحركة وتشتت الانتباه ADHD وصعوبات التعلم. خطة فردية بأسلوب ABA — جلسات حضورية في الرياض أو أونلاين.">
+<meta name="description" content="أخصائية تربية خاصة وتعديل سلوك في الرياض بخبرة أكثر من 10 سنوات مع أطفال التوحد وفرط الحركة وتشتت الانتباه ADHD وصعوبات التعلم، وتدريس ومتابعة الواجبات المدرسية لجميع المراحل. جلسات حضورية في الرياض أو أونلاين.">
 <meta property="og:title" content="نهاد كمال | أخصائية تربية خاصة وتعديل سلوك في الرياض">
 <meta property="og:description" content="خطة فردية لطفلك بأسلوب ABA — جلسات حضورية في الرياض أو أونلاين. احجز جلسة التقييم الأولى عبر واتساب.">
 <meta property="og:type" content="website">
@@ -169,6 +169,16 @@ img,svg{display:block}
 @media(max-width:960px){.svc{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.svc{grid-template-columns:1fr}}
 
+/* tutoring */
+.stages{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.stage{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px 22px;border-top:4px solid var(--gold)}
+.stage .lv{display:inline-block;background:var(--gold-soft);color:#8a6430;font-weight:700;font-size:.82rem;padding:4px 12px;border-radius:100px;margin-bottom:12px}
+.stage h3{font-size:1.1rem;color:var(--navy);margin-bottom:6px}
+.stage p{color:var(--muted);font-size:.95rem}
+.tut-cta{display:flex;gap:16px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:34px;color:var(--muted);font-size:.95rem}
+@media(max-width:960px){.stages{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.stages{grid-template-columns:1fr}}
+
 /* about */
 .about{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
 .id-card{background:linear-gradient(155deg,var(--navy-2),var(--navy));border-radius:28px;padding:40px 34px;color:#fff;position:relative;overflow:hidden}
@@ -289,6 +299,7 @@ footer{padding:34px 0 110px;text-align:center;color:var(--muted);font-size:.88re
     <nav class="nav">
       <a href="#how">كيف نبدأ</a>
       <a href="#services">الخدمات</a>
+      <a href="#tutoring">التدريس والواجبات</a>
       <a href="#about">عن نهاد</a>
       <a href="#faq">الأسئلة الشائعة</a>
     </nav>
@@ -302,7 +313,7 @@ footer{padding:34px 0 110px;text-align:center;color:var(--muted);font-size:.88re
     <div class="rv in">
       <span class="pill"><span class="dot"></span>جلسات حضورية في الرياض · وأونلاين لكل مناطق المملكة</span>
       <h1>خطة واضحة تساعد طفلك <em>يتقدّم بثقة</em></h1>
-      <p class="lead">أخصائية تربية خاصة وتعديل سلوك بخبرة تتجاوز ١٠ سنوات مع أطفال التوحد، فرط الحركة وتشتت الانتباه، وصعوبات التعلم — بخطة فردية مبنية على تحليل السلوك التطبيقي ABA.</p>
+      <p class="lead">أخصائية تربية خاصة وتعديل سلوك بخبرة تتجاوز ١٠ سنوات مع أطفال التوحد، فرط الحركة وتشتت الانتباه، وصعوبات التعلم — بخطة فردية مبنية على تحليل السلوك التطبيقي ABA، إلى جانب التدريس ومتابعة الواجبات المدرسية لمختلف المراحل.</p>
       <ul class="checks">
         <li><svg><use href="#i-check"/></svg>تقييم دقيق لقدرات طفلك قبل أي خطة</li>
         <li><svg><use href="#i-check"/></svg>أهداف مكتوبة قابلة للقياس</li>
@@ -347,6 +358,7 @@ footer{padding:34px 0 110px;text-align:center;color:var(--muted);font-size:.88re
             <option>فرط الحركة وتشتت الانتباه</option>
             <option>صعوبات التعلم</option>
             <option>تعديل سلوك</option>
+            <option>تدريس ومتابعة واجبات</option>
             <option>غير متأكد وأحتاج تقييم</option>
           </select>
           <div class="err">اختر الاحتياج</div>
@@ -381,6 +393,7 @@ footer{padding:34px 0 110px;text-align:center;color:var(--muted);font-size:.88re
     <span class="chip">صعوبات التعلم</span>
     <span class="chip">السلوكيات الصعبة ونوبات الغضب</span>
     <span class="chip">الدمج المدرسي</span>
+    <span class="chip">التدريس ومتابعة الواجبات</span>
   </div>
 </div>
 
@@ -415,6 +428,30 @@ footer{padding:34px 0 110px;text-align:center;color:var(--muted);font-size:.88re
       <div class="card rv"><div class="ic"><svg style="color:var(--gold)"><use href="#i-bolt"/></svg></div><h3>فرط الحركة وتشتت الانتباه</h3><p>تنمية التركيز وضبط الاندفاع وتنظيم السلوك في البيت والمدرسة.</p></div>
       <div class="card rv"><div class="ic"><svg style="color:var(--gold)"><use href="#i-book"/></svg></div><h3>صعوبات التعلم</h3><p>تكييف المواد والأنشطة لتناسب طريقة استيعاب الطفل ومستواه.</p></div>
       <div class="card rv"><div class="ic"><svg style="color:var(--gold)"><use href="#i-family"/></svg></div><h3>إرشاد الأسرة</h3><p>تدريب الوالدين على تطبيق الخطة في البيت لضمان استمرار التقدّم.</p></div>
+      <div class="card rv"><div class="ic"><svg style="color:var(--gold)"><use href="#i-cal"/></svg></div><h3>متابعة الواجبات</h3><p>متابعة يومية أو أسبوعية للواجبات وتنظيم وقت المذاكرة مع إشعار ولي الأمر بالتقدّم.</p></div>
+      <div class="card rv"><div class="ic"><svg style="color:var(--gold)"><use href="#i-screen"/></svg></div><h3>التدريس والتأسيس</h3><p>شرح الدروس وتأسيس القراءة والكتابة والحساب والتحضير للاختبارات بأسلوب يناسب الطالب.</p></div>
+      <div class="card rv"><div class="ic"><svg style="color:var(--gold)"><use href="#i-chart"/></svg></div><h3>التحضير للاختبارات</h3><p>مراجعة منظمة قبل الاختبارات وتدريب على حل الأسئلة لرفع الثقة والدرجات.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TUTORING -->
+<section class="sec" id="tutoring">
+  <div class="wrap">
+    <div class="head rv">
+      <span class="kick">التدريس ومتابعة الواجبات</span>
+      <h2>دعم دراسي لكل المراحل</h2>
+      <p>شرح الدروس، حل الواجبات، تنظيم وقت المذاكرة، والتحضير للاختبارات — بأسلوب يراعي طريقة تعلّم كل طالب.</p>
+    </div>
+    <div class="stages">
+      <div class="stage rv"><span class="lv">رياض الأطفال</span><h3>التأسيس المبكر</h3><p>الحروف والأرقام ومهارات ما قبل القراءة والكتابة بطريقة ممتعة.</p></div>
+      <div class="stage rv"><span class="lv">المرحلة الابتدائية</span><h3>تأسيس ومتابعة</h3><p>تأسيس القراءة والكتابة والحساب، ومتابعة الواجبات اليومية.</p></div>
+      <div class="stage rv"><span class="lv">المرحلة المتوسطة</span><h3>فهم وتنظيم</h3><p>شرح الدروس، حل الواجبات، وبناء عادات مذاكرة منتظمة.</p></div>
+      <div class="stage rv"><span class="lv">المرحلة الثانوية</span><h3>مراجعة واختبارات</h3><p>متابعة المواد والتحضير للاختبارات بخطة مراجعة واضحة.</p></div>
+    </div>
+    <div class="tut-cta rv">
+      <a href="#book" class="btn btn-primary js-tut">احجز متابعة دراسية</a>
+      <span>حضوري في الرياض · أونلاين لكل المملكة</span>
     </div>
   </div>
 </section>
@@ -511,6 +548,7 @@ footer{padding:34px 0 110px;text-align:center;color:var(--muted);font-size:.88re
       <details><summary>أين تقام الجلسات الحضورية؟</summary><p>داخل مدينة الرياض، ويتم الاتفاق على المكان والموعد المناسب عند الحجز عبر واتساب.</p></details>
       <details><summary>هل الجلسات الأونلاين مفيدة فعلاً؟</summary><p>نعم لكثير من الحالات، خاصة إرشاد الأسرة ومتابعة الخطة وبعض المهارات. نحدد في التقييم الأنسب لطفلك: حضوري أو أونلاين أو مزيج بينهما.</p></details>
       <details><summary>ما هو أسلوب ABA؟</summary><p>تحليل السلوك التطبيقي: منهج علمي يقيس السلوك ويفهم أسبابه، ثم يعزّز المهارات الإيجابية خطوة بخطوة ويقلّل السلوكيات الصعبة بطريقة منظمة وقابلة للقياس.</p></details>
+      <details><summary>هل التدريس ومتابعة الواجبات لكل الطلاب؟</summary><p>نعم، للطلاب في جميع المراحل من رياض الأطفال حتى الثانوي، سواء كان الطالب يحتاج دعماً خاصاً أو متابعة دراسية عادية، حضورياً في الرياض أو أونلاين.</p></details>
       <details><summary>هل يمكن التنسيق مع مدرسة طفلي؟</summary><p>نعم، يمكن مشاركة الخطة والإرشادات مع المعلمين لضمان تطبيق نفس الأسلوب في البيت والمدرسة.</p></details>
     </div>
   </div>
@@ -556,6 +594,8 @@ const track=(ev,params)=>{try{window.fbq&&fbq('track',ev,params||{})}catch(e){}}
 // contact tracking
 document.querySelectorAll('.js-wa').forEach(a=>a.addEventListener('click',()=>track('Contact',{content_name:'whatsapp'})));
 document.querySelectorAll('.js-call').forEach(a=>a.addEventListener('click',()=>track('Contact',{content_name:'call'})));
+
+document.querySelectorAll('.js-tut').forEach(a=>a.addEventListener('click',()=>{document.getElementById('f-need').value='تدريس ومتابعة واجبات'}));
 
 // hide neighborhood when online
 const hood=document.getElementById('hood-f');
